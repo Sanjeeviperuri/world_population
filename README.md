@@ -34,8 +34,6 @@ Packages Summary
 --- Shiny App Public ---
 
 https://www.shinyapps.io/admin/
-email: population.shiny@gmail.com
-pass: sanjuperuri
 
 APP: https://world-population.shinyapps.io/main/
 
