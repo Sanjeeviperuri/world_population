@@ -3,20 +3,20 @@
 Forecasting and Visualize World Population
 Packages Summary
 library(shiny) 			: Shiny main packages
-library(shinyjs) 			: Shiny js, the main function is to delay tensorflow loader in forecasting.R to prevent laging when open shiny app
+library(shinyjs) 		: Shiny js, the main function is to delay tensorflow loader in forecasting.R to prevent laging when open shiny app
 library(dplyr) 			: this packages use to open multiple R and Rmd file in Shiny Markdown
 library(knitr) 			: HTML Generator for shinny
 library(kableExtra) 		: Table generator
 library(plotly)			: Interactive ploting packages in order to make ggplot interactive, such as hovering, labeling interacvtively
-library(sf)				: to encode spatial vector to generate map vector
+library(sf)			: to encode spatial vector to generate map vector
 library(rnaturalearth) 		: to access map data
 library(rnaturalearthdata) 	: to access and save map data
-library(scales) 			: generic function whose default method centers and/or scales the columns of a numeric matrix, to scale x or y axis in ggplot
+library(scales) 		: generic function whose default method centers and/or scales the columns of a numeric matrix, to scale x or y axis in ggplot
 library(psych) 			: Functions for analyzing data at multiple levels include within and between group statistics, including correlations and factor analysis, is use to summarize data
 require(rmarkdown)		: rmarkdown package
-library(reshape) 			: main uses for app is melting data: Melting in R programming is done to organize the data. It is performed using melt() function which takes dataset and column values that has to be kept constant. 
+library(reshape) 		: main uses for app is melting data: Melting in R programming is done to organize the data. It is performed using melt() function which takes dataset and column values that has to be kept constant. 
 library(reticulate)		: to embed Python Session in R, in order to run tensorflow
-library(ggplot2)			: outstanding ploting packages in R
+library(ggplot2)		: outstanding ploting packages in R
 library(keras)			: load AI from tensor flow
 
 
