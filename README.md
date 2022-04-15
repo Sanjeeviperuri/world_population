@@ -3,7 +3,9 @@
 Forecasting and Visualize World Population
 Packages Summary
 library(shiny) 			: Shiny main packages
+
 library(shinyjs) 		: Shiny js, the main function is to delay tensorflow loader in forecasting.R to prevent laging when open shiny app
+
 library(dplyr) 			: this packages use to open multiple R and Rmd file in Shiny Markdown
 library(knitr) 			: HTML Generator for shinny
 library(kableExtra) 		: Table generator
