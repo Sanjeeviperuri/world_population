@@ -1,0 +1,16 @@
+---
+output:
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+### Code - Markdown
+
+This is an R Markdown document that provides the code of the forecasting generator program to generate a model and forecast for each country. This result of the program will be opened and visualized in this shiny app.
+```{r code = readLines("model_generator/generator.R"),eval=FALSE}
+
+```
